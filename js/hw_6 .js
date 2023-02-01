@@ -7,15 +7,13 @@ const threeString = prompt ('enter a word #3')
 console.log(threeString)
 
 const allStrings = (oneString + twoString + threeString)
-console.log(allStrings)
+alert(allStrings)
 
 
 //* HW #6   2/2
 const numb = 12345;
-console.log(numb);
 
 const numbSrt = numb.toString()
-console.log(numbSrt);
 
 const numbWithSpace =(`${numbSrt [0]} ${numbSrt [1]} ${numbSrt [2]} ${numbSrt [3]} ${numbSrt [4]}`);
 console.log( numbWithSpace);
