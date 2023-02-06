@@ -6,11 +6,11 @@ for (let index = 0; index < arrLenght; index++) {
    const element = prompt (`введите номер элемента ${index}`);
    array.push(element);
 }
-console.log(array)
+console.log(array);
 //сортування масиву за зростанням
-array.sort( (a, b) => a - b )
-console.log(array)
+array.sort( (a, b) => a - b );
+console.log(array);
 
 //видалення елементів з (2 по 4 включно)
-array.splice(1,3)
-console.log(array)
+array.splice(1,3);
+console.log(array);
