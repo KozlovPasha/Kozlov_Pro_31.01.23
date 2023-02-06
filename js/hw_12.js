@@ -11,6 +11,6 @@ console.log(array);
 array.sort( (a, b) => a - b );
 console.log(array);
 
-//видалення елементів з (2 по 4 включно)
+//видалення елементів з (2 по 4 включно )
 array.splice(1,3);
 console.log(array);
