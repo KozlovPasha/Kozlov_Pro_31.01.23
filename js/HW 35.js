@@ -1,3 +1,4 @@
+//WH 35
 let table = document.querySelector('#table');
 
 for (let i = 0; i <= 9; i++) {
