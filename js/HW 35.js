@@ -1,5 +1,3 @@
-//Вивести таблицю 10 × 10, заповнену числами від 1 до 100 (таблиця створюється динамічно)
-
 let table = document.querySelector('#table');
 
 for (let i = 0; i <= 9; i++) {
@@ -13,5 +11,4 @@ for (let i = 0; i <= 9; i++) {
 	
 	table.appendChild(tr);
 }
-
 
