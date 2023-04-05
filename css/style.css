@@ -4,39 +4,27 @@ body {
 	background-color: #fff;
 	color: #000;
 }
+
 .wrapper {
 	padding: 30px;
 	margin: 0 auto;
 	max-width: 700px;
 	height: 750px;
-	color: purple;
 	border-radius: 10px;
 }
 
-
-.log-pass {
-	display: block;
-	margin: 0 0 10px 30px;
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+	border: 2px solid;
 }
 
-.input {
-	width: 700px;
-	height: 25px;
-	border: 1px solid purple;
-	border-radius: 10px;
-   margin: 0 0 10px 30px;
-}
-.log-pass {
-	width: 700px;
-	height: 25px;
-   margin: 0 0 10px 30px;
-}
 
-.input-active{
-   width: 400px;
-	height: 400px;
-   border: 3px solid black;
-   border-radius: 10px;
-   background-color: aqua;
-   margin-left: 150px;
+th,
+td {
+	margin: 0 auto;
+	width: 30px;
+	height: 30px;
+	padding: 10px;
+	border: 1px solid red;
 }
