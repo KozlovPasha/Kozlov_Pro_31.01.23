@@ -12,13 +12,35 @@ body {
 	height: 750px;
 	border-radius: 10px;
 	text-align: center;
+	display: flex;
+	align-items: center;
 }
 
 
-.box {
+.btn{
+	width: 150px;
+	height: 40px;
+	color: #fff;
+	border: 1px solid black;
+	border-radius: 20px;
+	font-weight: 700;
+	font-size: 13px;
+	line-height: 18px;
+	margin: 0 auto;
+	text-align: center;
+	text-decoration: none;
+	padding: 10px 0;
 	box-sizing: border-box;
-	font-size: 30px;
-	display: inline-block;
-	border: 1px solid orange;
-	padding: 15px;
+}
+
+.next{
+background-color: blue;
+}
+.prev{
+	background-color: aqua;
+}
+
+img{
+	width: 400px;
+	height: 400px;
 }
