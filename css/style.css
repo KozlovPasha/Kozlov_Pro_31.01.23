@@ -5,42 +5,31 @@ body {
 	color: #000;
 }
 
-.wrapper {
-	padding: 30px;
-	margin: 0 auto;
-	max-width: 1360px;
-	height: 750px;
-	border-radius: 10px;
-	text-align: center;
-	display: flex;
-	align-items: center;
+button {
+	font-size: 16px;
+	padding: 8px 16px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
 }
 
-
-.btn{
-	width: 150px;
-	height: 40px;
-	color: #fff;
-	border: 1px solid black;
-	border-radius: 20px;
-	font-weight: 700;
-	font-size: 13px;
-	line-height: 18px;
-	margin: 0 auto;
-	text-align: center;
-	text-decoration: none;
-	padding: 10px 0;
-	box-sizing: border-box;
+#youtube-btn {
+	background-color: red;
+	color: white;
 }
 
-.next{
-background-color: blue;
-}
-.prev{
-	background-color: aqua;
+#google-btn {
+	background-color: blue;
+	color: white;
 }
 
-img{
-	width: 400px;
-	height: 400px;
+#google-btn:hover {
+	background-color: #555;
+	color: white;
+}
+
+#youtube-btn:hover {
+	background-color: #555;
+	color: white;
 }
